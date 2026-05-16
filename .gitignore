@@ -1,0 +1,14 @@
+# Minikube binary
+minikube-linux-amd64
+
+# Istio downloaded folder
+istio-*/
+
+# Node modules
+node_modules/
+
+# Angular build
+dist/
+
+# Angular cache
+.angular/
