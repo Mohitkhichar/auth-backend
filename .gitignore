@@ -12,3 +12,5 @@ dist/
 
 # Angular cache
 .angular/
+
+.codespaces/
