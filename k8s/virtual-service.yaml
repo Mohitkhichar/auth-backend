@@ -1,0 +1,14 @@
+apiVersion: networking.istio.io/v1
+kind: VirtualService
+metadata:
+  name: backend-vs
+  namespace: auth-app
+spec:
+  hosts:
+  - backend
+  http:
+  - route:
+    - destination:
+        host: backend
+        port:
+          number: 8080

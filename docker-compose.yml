@@ -1,0 +1,12 @@
+services:
+  backend:
+    build: ./auth-backend
+    ports:
+      - "8080:8080"
+    # volumes:
+    #   - ./auth-backend/users.txt:/app/users.txt
+
+  frontend:
+    build: ./auth-app
+    ports:
+      - "4200:80"

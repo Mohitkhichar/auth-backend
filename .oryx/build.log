@@ -1,0 +1,301 @@
+2026-04-13 05:48:37.8349|INFO|Microsoft.Oryx.BuildScriptGeneratorCli.CommandBase|Oryx command line: /usr/local/buildscriptgen/GenerateBuildScript.dll build --manifest-dir /workspaces/.oryx --property packagedir=/home/codespace/.local/lib/python3.12/site-packages --property python_version=3.12.1 --log-file /workspaces/.oryx/build.log /workspaces/auth-backend
+2026-04-13 05:48:38.4725|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Available checkers: 5
+2026-04-13 05:48:38.4776|DEBUG|Microsoft.Oryx.Detector.Node.NodeDetector|Could not find package.json/package-lock.json/yarn.lock in repo
+2026-04-13 05:48:38.4785|DEBUG|Microsoft.Oryx.Detector.Node.NodeDetector|Could not find typical Node.js files in repo
+2026-04-13 05:48:38.4785|DEBUG|Microsoft.Oryx.Detector.Node.NodeDetector|App in repo is not a NodeJS app
+2026-04-13 05:48:38.6584|ERROR|Microsoft.Oryx.Detector.Python.PythonDetector|Cound not find 726571756972656d656e74732e747874 at the root of the repo. More information: https://aka.ms/requirements-not-found
+2026-04-13 05:48:38.6584|ERROR|Microsoft.Oryx.Detector.Python.PythonDetector|Missing setup.py at the root of the repo. More information: https://aka.ms/requirements-not-found
+2026-04-13 05:48:38.6584|ERROR|Microsoft.Oryx.Detector.Python.PythonDetector|Missing setup.py at the root of the repo. More information: https://aka.ms/requirements-not-found
+2026-04-13 05:48:38.6584|ERROR|Microsoft.Oryx.Detector.Python.PythonDetector|Missing uv.lock at the root of the repo. More information: https://aka.ms/requirements-not-found
+2026-04-13 05:48:38.6618|DEBUG|Microsoft.Oryx.Detector.Python.PythonDetector|Could not find file 'runtime.txt' in source repo
+2026-04-13 05:48:38.6668|INFO|Microsoft.Oryx.Detector.Python.PythonDetector|Could not find any file with extension '*.py' in the repo.
+2026-04-13 05:48:38.6707|DEBUG|Microsoft.Oryx.Detector.DotNetCore.ExplicitProjectFileProvider|No request to build a particular project file explicitly using the PROJECT environment variable
+2026-04-13 05:48:38.6745|DEBUG|Microsoft.Oryx.Detector.DotNetCore.ProbeAndFindProjectFileProvider|Could not find any files with extension 'csproj' in repo.
+2026-04-13 05:48:38.6768|DEBUG|Microsoft.Oryx.Detector.DotNetCore.ProbeAndFindProjectFileProvider|Could not find any files with extension 'fsproj' in repo.
+2026-04-13 05:48:38.6784|DEBUG|Microsoft.Oryx.Detector.Php.PhpDetector|File 'composer.json' does not exist in source repo
+2026-04-13 05:48:38.6815|INFO|Microsoft.Oryx.Detector.Php.PhpDetector|Could not find any file with extension '*.php' in the repo.
+2026-04-13 05:48:38.6824|DEBUG|Microsoft.Oryx.Detector.Ruby.RubyDetector|Could not find Gemfile in repo
+2026-04-13 05:48:38.6824|DEBUG|Microsoft.Oryx.Detector.Ruby.RubyDetector|Could not find typical Ruby files in repo
+2026-04-13 05:48:38.6824|DEBUG|Microsoft.Oryx.Detector.Ruby.RubyDetector|App in repo is not a Ruby app
+2026-04-13 05:48:38.6839|ERROR|Microsoft.Oryx.Detector.Golang.GolangDetector|Could not find go.mod in repo
+2026-04-13 05:48:38.6856|DEBUG|Microsoft.Oryx.Detector.Java.JavaDetector|Found files with extension 'java' in the repo
+2026-04-13 05:48:38.6891|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Java.JavaSdkStorageVersionProvider|Getting list of available versions for platform java.
+2026-04-13 05:48:38.7066|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Java.JavaSdkStorageVersionProvider|Using the Sdk storage url https://oryx-cdn.microsoft.io.
+2026-04-13 05:48:38.7197|INFO|System.Net.Http.HttpClient.general.LogicalHandler|Start processing HTTP request GET https://oryx-cdn.microsoft.io/java?restype=container&comp=list&include=metadata&marker=
+2026-04-13 05:48:38.7302|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2026-04-13 05:48:38.7435|INFO|System.Net.Http.HttpClient.general.ClientHandler|Sending HTTP request GET https://oryx-cdn.microsoft.io/java?restype=container&comp=list&include=metadata&marker=
+2026-04-13 05:48:38.7441|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2026-04-13 05:48:41.0117|INFO|System.Net.Http.HttpClient.general.ClientHandler|Received HTTP response headers after 2243.4865ms - 200
+2026-04-13 05:48:41.0149|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Response Headers:
+Date: Mon, 13 Apr 2026 05:48:40 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-ms-request-id: ea88471d-101e-0071-4e09-cba891000000
+x-ms-version: 2009-09-19
+x-azure-ref: 20260413T054839Z-167d7d4d8d42fqwhhC1MAAmeyw00000006g0000000004e4v
+X-Cache: CONFIG_NOCACHE
+Content-Type: application/xml
+
+2026-04-13 05:48:41.0205|INFO|System.Net.Http.HttpClient.general.LogicalHandler|End processing HTTP request after 2308.8495ms - 200
+2026-04-13 05:48:41.0210|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Response Headers:
+Date: Mon, 13 Apr 2026 05:48:40 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-ms-request-id: ea88471d-101e-0071-4e09-cba891000000
+x-ms-version: 2009-09-19
+x-azure-ref: 20260413T054839Z-167d7d4d8d42fqwhhC1MAAmeyw00000006g0000000004e4v
+X-Cache: CONFIG_NOCACHE
+Content-Type: application/xml
+
+2026-04-13 05:48:41.4947|INFO|System.Net.Http.HttpClient.general.LogicalHandler|Start processing HTTP request GET https://oryx-cdn.microsoft.io/java?restype=container&comp=list&include=metadata&marker=
+2026-04-13 05:48:41.4950|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2026-04-13 05:48:41.4970|INFO|System.Net.Http.HttpClient.general.ClientHandler|Sending HTTP request GET https://oryx-cdn.microsoft.io/java?restype=container&comp=list&include=metadata&marker=
+2026-04-13 05:48:41.4970|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2026-04-13 05:48:41.8153|INFO|System.Net.Http.HttpClient.general.ClientHandler|Received HTTP response headers after 317.5056ms - 200
+2026-04-13 05:48:41.8153|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Response Headers:
+Date: Mon, 13 Apr 2026 05:48:41 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-ms-request-id: ea88495d-101e-0071-4f09-cba891000000
+x-ms-version: 2009-09-19
+x-azure-ref: 20260413T054841Z-167d7d4d8d42fqwhhC1MAAmeyw00000006g0000000004e7e
+X-Cache: CONFIG_NOCACHE
+Content-Type: application/xml
+
+2026-04-13 05:48:41.8153|INFO|System.Net.Http.HttpClient.general.LogicalHandler|End processing HTTP request after 320.9983ms - 200
+2026-04-13 05:48:41.8153|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Response Headers:
+Date: Mon, 13 Apr 2026 05:48:41 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-ms-request-id: ea88495d-101e-0071-4f09-cba891000000
+x-ms-version: 2009-09-19
+x-azure-ref: 20260413T054841Z-167d7d4d8d42fqwhhC1MAAmeyw00000006g0000000004e7e
+X-Cache: CONFIG_NOCACHE
+Content-Type: application/xml
+
+2026-04-13 05:48:42.0622|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Java.JavaSdkStorageVersionProvider|Getting the default version from url https://oryx-cdn.microsoft.io/java/defaultVersion.focal-scm.txt.
+2026-04-13 05:48:42.0630|INFO|System.Net.Http.HttpClient.general.LogicalHandler|Start processing HTTP request GET https://oryx-cdn.microsoft.io/java/defaultVersion.focal-scm.txt
+2026-04-13 05:48:42.0630|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2026-04-13 05:48:42.0640|INFO|System.Net.Http.HttpClient.general.ClientHandler|Sending HTTP request GET https://oryx-cdn.microsoft.io/java/defaultVersion.focal-scm.txt
+2026-04-13 05:48:42.0649|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2026-04-13 05:48:42.0886|INFO|System.Net.Http.HttpClient.general.ClientHandler|Received HTTP response headers after 23.5027ms - 200
+2026-04-13 05:48:42.0890|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Response Headers:
+Date: Mon, 13 Apr 2026 05:48:42 GMT
+Connection: keep-alive
+ETag: 0x8DE832005EB8C61
+x-ms-request-id: 9b23e396-201e-0020-43c4-c887f3000000
+x-ms-version: 2009-09-19
+x-ms-meta-buildnumber: 20220729.2
+x-ms-meta-branch: 1559705-improve-cli-to-detect-viable-sdks-based-on-debian-flavor
+x-ms-meta-checksum: 262bdb6eb4a95ab843ed26d46ccf77f2b26db3a8e16f207b2275e3d0a55eb724d5408b08287d2e3a7b7e365959ff34d47a8a1f3e17da8cf2fe9bf3d0fd8d5308
+x-ms-meta-commit: 8e938ec2c9234e7fb8b159e1132c055d7b081409
+x-ms-lease-status: unlocked
+x-ms-blob-type: BlockBlob
+x-azure-ref: 20260413T054842Z-167d7d4d8d42fqwhhC1MAAmeyw00000006g0000000004e7y
+X-Cache: TCP_HIT
+x-fd-int-roxy-purgeid: 84133770
+X-Cache-Info: L1_T2
+Accept-Ranges: bytes
+Content-Type: text/plain
+Content-Length: 3
+Last-Modified: Mon, 16 Mar 2026 05:51:09 GMT
+
+2026-04-13 05:48:42.0890|INFO|System.Net.Http.HttpClient.general.LogicalHandler|End processing HTTP request after 26.1492ms - 200
+2026-04-13 05:48:42.0899|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Response Headers:
+Date: Mon, 13 Apr 2026 05:48:42 GMT
+Connection: keep-alive
+ETag: 0x8DE832005EB8C61
+x-ms-request-id: 9b23e396-201e-0020-43c4-c887f3000000
+x-ms-version: 2009-09-19
+x-ms-meta-buildnumber: 20220729.2
+x-ms-meta-branch: 1559705-improve-cli-to-detect-viable-sdks-based-on-debian-flavor
+x-ms-meta-checksum: 262bdb6eb4a95ab843ed26d46ccf77f2b26db3a8e16f207b2275e3d0a55eb724d5408b08287d2e3a7b7e365959ff34d47a8a1f3e17da8cf2fe9bf3d0fd8d5308
+x-ms-meta-commit: 8e938ec2c9234e7fb8b159e1132c055d7b081409
+x-ms-lease-status: unlocked
+x-ms-blob-type: BlockBlob
+x-azure-ref: 20260413T054842Z-167d7d4d8d42fqwhhC1MAAmeyw00000006g0000000004e7y
+X-Cache: TCP_HIT
+x-fd-int-roxy-purgeid: 84133770
+X-Cache-Info: L1_T2
+Accept-Ranges: bytes
+Content-Type: text/plain
+Content-Length: 3
+Last-Modified: Mon, 16 Mar 2026 05:51:09 GMT
+
+2026-04-13 05:48:42.1896|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Java.JavaSdkStorageVersionProvider|Got the default version for java as 11.
+2026-04-13 05:48:42.2170|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Java.MavenSdkStorageVersionProvider|Getting list of available versions for platform maven.
+2026-04-13 05:48:42.2170|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Java.MavenSdkStorageVersionProvider|Using the Sdk storage url https://oryx-cdn.microsoft.io.
+2026-04-13 05:48:42.2170|INFO|System.Net.Http.HttpClient.general.LogicalHandler|Start processing HTTP request GET https://oryx-cdn.microsoft.io/maven?restype=container&comp=list&include=metadata&marker=
+2026-04-13 05:48:42.2170|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2026-04-13 05:48:42.2182|INFO|System.Net.Http.HttpClient.general.ClientHandler|Sending HTTP request GET https://oryx-cdn.microsoft.io/maven?restype=container&comp=list&include=metadata&marker=
+2026-04-13 05:48:42.2182|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2026-04-13 05:48:42.5203|INFO|System.Net.Http.HttpClient.general.ClientHandler|Received HTTP response headers after 301.8862ms - 200
+2026-04-13 05:48:42.5203|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Response Headers:
+Date: Mon, 13 Apr 2026 05:48:42 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-ms-request-id: ea884b7a-101e-0071-1509-cba891000000
+x-ms-version: 2009-09-19
+x-azure-ref: 20260413T054842Z-167d7d4d8d42fqwhhC1MAAmeyw00000006g0000000004e81
+X-Cache: CONFIG_NOCACHE
+Content-Type: application/xml
+
+2026-04-13 05:48:42.5203|INFO|System.Net.Http.HttpClient.general.LogicalHandler|End processing HTTP request after 303.121ms - 200
+2026-04-13 05:48:42.5203|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Response Headers:
+Date: Mon, 13 Apr 2026 05:48:42 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-ms-request-id: ea884b7a-101e-0071-1509-cba891000000
+x-ms-version: 2009-09-19
+x-azure-ref: 20260413T054842Z-167d7d4d8d42fqwhhC1MAAmeyw00000006g0000000004e81
+X-Cache: CONFIG_NOCACHE
+Content-Type: application/xml
+
+2026-04-13 05:48:42.5626|INFO|System.Net.Http.HttpClient.general.LogicalHandler|Start processing HTTP request GET https://oryx-cdn.microsoft.io/maven?restype=container&comp=list&include=metadata&marker=
+2026-04-13 05:48:42.5626|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2026-04-13 05:48:42.5626|INFO|System.Net.Http.HttpClient.general.ClientHandler|Sending HTTP request GET https://oryx-cdn.microsoft.io/maven?restype=container&comp=list&include=metadata&marker=
+2026-04-13 05:48:42.5628|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2026-04-13 05:48:42.8633|INFO|System.Net.Http.HttpClient.general.ClientHandler|Received HTTP response headers after 300.405ms - 200
+2026-04-13 05:48:42.8633|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Response Headers:
+Date: Mon, 13 Apr 2026 05:48:42 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-ms-request-id: ea884c70-101e-0071-6309-cba891000000
+x-ms-version: 2009-09-19
+x-azure-ref: 20260413T054842Z-167d7d4d8d42fqwhhC1MAAmeyw00000006g0000000004e8a
+X-Cache: CONFIG_NOCACHE
+Content-Type: application/xml
+
+2026-04-13 05:48:42.8667|INFO|System.Net.Http.HttpClient.general.LogicalHandler|End processing HTTP request after 304.0542ms - 200
+2026-04-13 05:48:42.8667|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Response Headers:
+Date: Mon, 13 Apr 2026 05:48:42 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-ms-request-id: ea884c70-101e-0071-6309-cba891000000
+x-ms-version: 2009-09-19
+x-azure-ref: 20260413T054842Z-167d7d4d8d42fqwhhC1MAAmeyw00000006g0000000004e8a
+X-Cache: CONFIG_NOCACHE
+Content-Type: application/xml
+
+2026-04-13 05:48:42.9134|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Java.MavenSdkStorageVersionProvider|Getting the default version from url https://oryx-cdn.microsoft.io/maven/defaultVersion.focal-scm.txt.
+2026-04-13 05:48:42.9139|INFO|System.Net.Http.HttpClient.general.LogicalHandler|Start processing HTTP request GET https://oryx-cdn.microsoft.io/maven/defaultVersion.focal-scm.txt
+2026-04-13 05:48:42.9139|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2026-04-13 05:48:42.9139|INFO|System.Net.Http.HttpClient.general.ClientHandler|Sending HTTP request GET https://oryx-cdn.microsoft.io/maven/defaultVersion.focal-scm.txt
+2026-04-13 05:48:42.9139|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2026-04-13 05:48:42.9360|INFO|System.Net.Http.HttpClient.general.ClientHandler|Received HTTP response headers after 21.9413ms - 200
+2026-04-13 05:48:42.9360|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Response Headers:
+Date: Mon, 13 Apr 2026 05:48:42 GMT
+Connection: keep-alive
+ETag: 0x8DE832014D65C68
+x-ms-request-id: 838b5a6c-401e-0036-61b7-c87124000000
+x-ms-version: 2009-09-19
+x-ms-meta-commit: 8e938ec2c9234e7fb8b159e1132c055d7b081409
+x-ms-meta-branch: 1559705-improve-cli-to-detect-viable-sdks-based-on-debian-flavor
+x-ms-meta-buildnumber: 20220729.2
+x-ms-meta-checksum: c5ea54b6510cd0efa0fcbab4a187f4402a39a29ebf2c857c44dee6bf40851a825271bf7cb9174806ae48836db70b16f165f290d8fd2bdebb07275aa0cefce705
+x-ms-lease-status: unlocked
+x-ms-blob-type: BlockBlob
+x-azure-ref: 20260413T054842Z-167d7d4d8d42fqwhhC1MAAmeyw00000006g0000000004e8q
+X-Cache: TCP_HIT
+x-fd-int-roxy-purgeid: 84133770
+X-Cache-Info: L1_T2
+Accept-Ranges: bytes
+Content-Type: text/plain
+Content-Length: 4
+Last-Modified: Mon, 16 Mar 2026 05:51:34 GMT
+
+2026-04-13 05:48:42.9360|INFO|System.Net.Http.HttpClient.general.LogicalHandler|End processing HTTP request after 22.6687ms - 200
+2026-04-13 05:48:42.9360|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Response Headers:
+Date: Mon, 13 Apr 2026 05:48:42 GMT
+Connection: keep-alive
+ETag: 0x8DE832014D65C68
+x-ms-request-id: 838b5a6c-401e-0036-61b7-c87124000000
+x-ms-version: 2009-09-19
+x-ms-meta-commit: 8e938ec2c9234e7fb8b159e1132c055d7b081409
+x-ms-meta-branch: 1559705-improve-cli-to-detect-viable-sdks-based-on-debian-flavor
+x-ms-meta-buildnumber: 20220729.2
+x-ms-meta-checksum: c5ea54b6510cd0efa0fcbab4a187f4402a39a29ebf2c857c44dee6bf40851a825271bf7cb9174806ae48836db70b16f165f290d8fd2bdebb07275aa0cefce705
+x-ms-lease-status: unlocked
+x-ms-blob-type: BlockBlob
+x-azure-ref: 20260413T054842Z-167d7d4d8d42fqwhhC1MAAmeyw00000006g0000000004e8q
+X-Cache: TCP_HIT
+x-fd-int-roxy-purgeid: 84133770
+X-Cache-Info: L1_T2
+Accept-Ranges: bytes
+Content-Type: text/plain
+Content-Length: 4
+Last-Modified: Mon, 16 Mar 2026 05:51:34 GMT
+
+2026-04-13 05:48:42.9376|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Java.MavenSdkStorageVersionProvider|Got the default version for maven as 3.6.
+2026-04-13 05:48:42.9468|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Java.JavaPlatform|Dynamic install is enabled.
+2026-04-13 05:48:42.9507|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Java.JavaPlatformInstaller|Version 11.0.14 was not found to be installed at /opt/java or /opt/java
+2026-04-13 05:48:42.9522|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Java.JavaPlatform|JSDK version 11.0.14 is not installed. So generating an installation script snippet for it.
+2026-04-13 05:48:42.9548|WARN|Microsoft.Oryx.BuildScriptGenerator.Java.JavaPlatformInstaller|Environment variable 'ORYX_SDK_STORAGE_BACKUP_BASE_URL' for Backup SDK storage base URL is not set.
+2026-04-13 05:48:42.9571|INFO|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|If java is not set as environment, it'll be set to 11.0.14 via benv
+2026-04-13 05:48:42.9596|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detecting platform using 'nodejs'...
+2026-04-13 05:48:42.9606|ERROR|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Platform 'nodejs' was not detected in the given repository.
+2026-04-13 05:48:42.9615|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detecting platform using 'hugo'...
+2026-04-13 05:48:42.9620|ERROR|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Platform 'hugo' was not detected in the given repository.
+2026-04-13 05:48:42.9620|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detecting platform using 'python'...
+2026-04-13 05:48:42.9620|ERROR|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Platform 'python' was not detected in the given repository.
+2026-04-13 05:48:42.9620|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detecting platform using 'dotnet'...
+2026-04-13 05:48:42.9620|ERROR|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Platform 'dotnet' was not detected in the given repository.
+2026-04-13 05:48:42.9620|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detecting platform using 'php'...
+2026-04-13 05:48:42.9620|ERROR|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Platform 'php' was not detected in the given repository.
+2026-04-13 05:48:42.9620|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detecting platform using 'ruby'...
+2026-04-13 05:48:42.9620|ERROR|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Platform 'ruby' was not detected in the given repository.
+2026-04-13 05:48:42.9620|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detecting platform using 'golang'...
+2026-04-13 05:48:42.9620|ERROR|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Platform 'golang' was not detected in the given repository.
+2026-04-13 05:48:42.9620|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detecting platform using 'java'...
+2026-04-13 05:48:42.9620|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detected platform 'java' with version '11.0.14'.
+2026-04-13 05:48:42.9638|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Repo is clean for java
+2026-04-13 05:48:43.0352|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Platform java with version 11.0.14 was used.
+2026-04-13 05:48:43.0352|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Running checkers
+2026-04-13 05:48:43.0372|INFO|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Running 0 applicable checkers for 1 tools: java
+2026-04-13 05:48:43.0439|INFO|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Build Property Key:PlatformName value: java is written into manifest
+2026-04-13 05:48:43.0561|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Path to appsvc.yaml /workspaces/auth-backend/appsvc.yaml
+2026-04-13 05:48:43.0561|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|No appsvc.yaml found
+2026-04-13 05:48:43.0845|DEBUG|Microsoft.Oryx.BuildScriptGeneratorCli.BuildCommand|No checker messages emitted
+2026-04-13 05:49:15.6882|ERROR|Microsoft.Oryx.BuildScriptGeneratorCli.BuildCommand|Error running build script (1/1):
+
+Source directory     : /workspaces/auth-backend
+Destination directory: /workspaces/auth-backend
+
+
+Downloading and extracting 'java' version '11.0.14' to '/opt/java/11.0.14'...
+Detected image debian flavor: focal-scm.
+Downloaded in 21 sec(s).
+Verifying checksum...
+Extracting contents...
+performing sha512 checksum for: java...
+Done in 31 sec(s).
+
+image detector file exists, platform is java..
+Running the command './mvnw clean compile'
+
+/tmp/BuildScriptGenerator/c423b3d0b71040d2941a3091ec06b093/build.sh: line 206: ./mvnw: Permission denied
+
