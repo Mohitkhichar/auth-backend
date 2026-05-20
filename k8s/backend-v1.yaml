@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-v1
+  namespace: auth-app
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: backend
+      version: v1
+
+  template:
+    metadata:
+      labels:
+        app: backend
+        version: v1
+
+    spec:
+      containers:
+      - name: backend
+        image: auth-backend:latest
+        imagePullPolicy: Never
+
+        ports:
+        - containerPort: 8080
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+  namespace: auth-app
+
+spec:
+  selector:
+    app: backend
+
+  ports:
+  - port: 8080
+    targetPort: 8080

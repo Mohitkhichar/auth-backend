@@ -1,14 +1,65 @@
+# # apiVersion: networking.istio.io/v1
+# # kind: VirtualService
+# # metadata:
+# #   name: backend-vs
+# #   namespace: auth-app
+# # spec:
+# #   hosts:
+# #   - backend
+# #   http:
+# #   - route:
+# #     - destination:
+# #         host: backend
+# #         port:
+# #           number: 8080
+
+# apiVersion: networking.istio.io/v1
+# kind: VirtualService
+
+# metadata:
+#   name: backend-vs
+#   namespace: auth-app
+
+# spec:
+#   hosts:
+#   - backend
+
+#   http:
+#   - route:
+
+#     - destination:
+#         host: backend
+#         subset: v1
+#       weight: 90
+
+#     - destination:
+#         host: backend
+#         subset: v2
+#       weight: 10
+
 apiVersion: networking.istio.io/v1
 kind: VirtualService
+
 metadata:
   name: backend-vs
   namespace: auth-app
+
 spec:
   hosts:
-  - backend
+  - "*"
+
+  gateways:
+  - auth-gateway
+
   http:
   - route:
+
     - destination:
         host: backend
-        port:
-          number: 8080
+        subset: v1
+      weight: 90
+
+    - destination:
+        host: backend
+        subset: v2
+      weight: 10

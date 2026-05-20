@@ -1,10 +1,33 @@
+# apiVersion: networking.istio.io/v1
+# kind: DestinationRule
+# metadata:
+#   name: backend-dr
+#   namespace: auth-app
+# spec:
+#   host: backend
+#   trafficPolicy:
+#     loadBalancer:
+#       simple: ROUND_ROBIN
+
 apiVersion: networking.istio.io/v1
 kind: DestinationRule
+
 metadata:
   name: backend-dr
   namespace: auth-app
+
 spec:
   host: backend
+
   trafficPolicy:
     loadBalancer:
       simple: ROUND_ROBIN
+
+  subsets:
+  - name: v1
+    labels:
+      version: v1
+
+  - name: v2
+    labels:
+      version: v2
